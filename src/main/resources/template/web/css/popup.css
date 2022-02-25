@@ -1,0 +1,27 @@
+.popup1 {
+display: none;
+position: fixed;
+padding-top: 50px;
+left: 0;
+top: 0;
+width: 30%;
+height: 30%;
+background-color: rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.5);
+}
+.popup1-content {
+position: relative;
+background-color: #FAFAFA;
+padding: 15px;
+margin: auto;
+width: 70%;
+}
+.close-btn {
+float: right;
+color: #2E2E2E;
+font-size: 25px;
+font-weight: 700;
+}
+.close-btn:hover {
+color: #D2D2D2;
+}

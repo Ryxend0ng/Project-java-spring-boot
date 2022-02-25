@@ -1,0 +1,803 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Tahoma, sans-serif, Helvetica, Arial;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    /* css for header start*/
+    
+    .header {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .header-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .navbar {
+        padding: 0 !important;
+    }
+    
+    .logo-web {
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .navbar-toggler span i {
+        color: white;
+    }
+    
+    .navbar-light .navbar-toggler {
+        border-color: white !important;
+    }
+    
+    .navbar-light button:focus {
+        outline: 0;
+    }
+    /*css header top*/
+    
+    .header-top {
+        margin: 0;
+        padding: 5px;
+    }
+    
+    .header-top ul {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    
+    .header-top ul li a {
+        color: white;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    
+    .header-top ul li:nth-child(2) a {
+        margin-left: 5px;
+    }
+    
+    .has-search .form-control {
+        padding-left: 2.375rem;
+        align-items: center;
+    }
+    
+    .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.2rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
+    
+    .header-bottom {
+        margin-top: 10px 20px 0 20px;
+        background-color: #f5f5f5;
+        color: white;
+        z-index: 100;
+    }
+    
+    .menu {
+        width: 100%;
+    }
+    
+    .menu>ul>li {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu>ul>li>a {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #000000;
+        padding: 0 10px;
+        display: flex;
+        font-weight: 500;
+        text-decoration: none;
+        align-items: center;
+    }
+    
+    .menu>ul>li>a:hover {
+        color: #00dc64;
+        cursor: pointer;
+    }
+    
+    .submenu {
+        clear: both;
+        background-color: white;
+        box-shadow: 0 0 3px #cccccc;
+        padding: 10px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        color: #746f71;
+        z-index: 1000;
+        min-width: 300px;
+        display: none;
+    }
+    
+    .submenu .sub1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .submenu .sub1 ul {
+        width: 50%;
+        list-style-type: none;
+    }
+    
+    .submenu .sub1 ul li a {
+        color: #777777;
+        text-decoration: none;
+    }
+    
+    .submenu .sub1 ul li a:hover {
+        color: black;
+    }
+    
+    .submenu .sub1 ul li {
+        min-width: 100px;
+        text-transform: capitalize;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
+    .sale {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #666769;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .sale span {
+        color: rgb(194, 123, 16);
+        font-weight: bold;
+        font-family: cursive;
+    }
+    
+    .menu>ul>li:hover .submenu {
+        display: block;
+    }
+    /* css for header end*/
+    /* css for content start*/
+    
+    .content {
+        width: 100%;
+    }
+    /* css for banner start*/
+    
+    .banner {
+        width: 100%;
+        z-index: 1;
+        background-image: url('../image/bnaeer\ back.jfif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 100px;
+        height: 500px;
+        box-sizing: border-box;
+    }
+    
+    .carousel-inner {
+        width: unset;
+        box-sizing: border-box;
+    }
+    
+    .carousel-item {
+        box-sizing: border-box;
+        height: 400px;
+    }
+    
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    /* css for banner end*/
+    /* css for main start*/
+    
+    .main {
+        height: auto;
+        max-width: 100%;
+        padding: 20px 70px;
+        box-sizing: border-box;
+        background-color: #f5f5f5;
+    }
+    
+    .introduce {
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgb(194, 189, 189);
+    }
+    
+    .introduce-comic {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-template-rows: repeat(2, 210px);
+        grid-gap: 15px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .introduce-comic div {
+        position: relative;
+    }
+    
+    .item img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .item {
+        grid-column: span 1;
+        grid-row: span 1;
+        box-sizing: border-box;
+    }
+    
+    .item2 {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    
+    .introduce-comic div .title-comic {
+        position: absolute;
+        font-weight: 500;
+        color: black;
+        padding: 10px;
+    }
+    
+    .introduce-comic div .title-comic .view {
+        color: #00dc64;
+        margin-bottom: 10px;
+    }
+    
+    .introduce-comic div .title-comic .view i {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .introduce-comic div .title-comic p {
+        margin: 0;
+    }
+    
+    .introduce-comic div .title-comic .up {
+        padding: 5px;
+        background-color: #00dc64;
+        display: inline;
+        border-radius: 20px;
+        font-size: 13px;
+        color: white;
+    }
+    
+    .introduce-comic div .title-comic .new {
+        padding: 5px 8px;
+        background-color: #000000;
+        display: inline;
+        border-radius: 100%;
+        font-size: 12px;
+        color: #00dc64;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .introduce-comic div .category {
+        margin-top: 40px;
+        color: orange;
+        font-weight: 400;
+        font-size: 15px;
+        position: absolute;
+        bottom: 12px;
+        left: 10px;
+    }
+    
+    .introduce-comic div.comic-thumnail {
+        box-sizing: border-box;
+        top: 0;
+        font-size: 12px;
+        text-align: justify;
+        display: none;
+        background-color: orange;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        color: white;
+        font-weight: 500;
+        position: absolute;
+    }
+    
+    .introduce-comic div.comic-thumnail hr {
+        background-color: white;
+        width: 30%;
+    }
+    
+    .introduce-comic div:hover .comic-thumnail {
+        cursor: pointer;
+        display: block;
+    }
+    /*css for new to webtoon start*/
+    
+    .new-to-webtoon {
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgb(194, 189, 189);
+    }
+    
+    .new-title {
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .new-title a {
+        color: #000000;
+    }
+    
+    .item-new {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .item-new-span2 {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    /*css for new to webtoon end*/
+    /*css for main gener start*/
+    
+    .name_gener {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 100%;
+    }
+    
+    .name_gener a {
+        color: white;
+        display: block;
+    }
+    
+    .name_gener p {
+        margin-top: 50px;
+    }
+    /*css for main gener end*/
+    /*color start*/
+    
+    .red {
+        color: rgb(197, 57, 57) !important;
+    }
+    
+    .bg-red {
+        background-color: rgb(197, 57, 57) !important;
+    }
+    
+    .blue {
+        color: blue !important;
+    }
+    
+    .bg-blue {
+        background-color: blue !important;
+    }
+    
+    .green {
+        color: green !important;
+    }
+    
+    .bg-green {
+        background-color: green !important;
+    }
+    
+    .white {
+        color: white !important;
+    }
+    
+    .size {
+        font-size: 10px;
+    }
+    
+    .bg-red {
+        background-color: rgb(197, 57, 57) !important;
+    }
+    /*color end*/
+    /*css for most popular*/
+    /*css for most popular*/
+    
+    .most-popular {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .popular-gener {
+        width: 48%;
+    }
+    
+    .popular-gener ul {
+        list-style: none;
+    }
+    
+    .popular-gener ul li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #000000;
+        border-top: 1px solid rgb(194, 189, 189);
+        width: calc(100% -50%);
+    }
+    
+    .popular-gener ul li a img {
+        width: 92px;
+        height: 98px;
+        margin-right: 20px;
+    }
+    
+    .title-gener p {
+        font-size: 13px;
+    }
+    
+    .title-gener .gener {
+        font-size: 13px;
+        color: blue;
+    }
+    
+    .popular_title {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .popular_title p {
+        color: gray;
+    }
+    /* css for main end*/
+    
+    .content {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    /* css for news start*/
+    
+    .news_gener {
+        width: 100%;
+        margin: 0px auto;
+        padding: 50px 0;
+        position: relative;
+    }
+    
+    .news_gener ul {
+        list-style: none;
+        max-width: 100%;
+    }
+    
+    .news_gener ul li a {
+        display: flex;
+        text-decoration: none;
+        color: #000000;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .news_gener ul li a img {
+        min-width: 200px;
+        min-height: 150px;
+        height: 150px;
+        max-height: 150px;
+        margin-right: 20px;
+    }
+    
+    .news_algin_center {
+        text-align: center;
+    }
+    /* css for news end*/
+    /* css for content end*/
+    /* css for footer start*/
+    
+    .footer {
+        border-top: 1px solid rgb(194, 189, 189);
+        width: 100%;
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+    
+    .logo_footer {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    
+    .logo_footer i {
+        margin-right: 20px;
+    }
+    
+    .list_footer {
+        margin-top: 20px;
+        width: unset;
+    }
+    
+    .list_footer ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        width: unset;
+        flex-wrap: wrap;
+    }
+    
+    .list_footer ul li a {
+        font-size: 15px;
+        padding: 0 10px;
+        color: #000000;
+    }
+    
+    .list_footer ul li a:hover {
+        color: rgb(185, 182, 182);
+    }
+    
+    .webtoon_thumbnail {
+        color: rgb(185, 182, 182);
+        font-size: 13px;
+    }
+    
+    .webtoon_thumbnail img {
+        width: 150px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    /* css for header end*/
+    
+    @media screen and (min-width: 320px) {
+        .header-top {
+            display: none;
+        }
+        .menu {
+            background-color: rgb(145, 139, 139);
+            margin: 0;
+        }
+        .menu ul li a {
+            color: white;
+            font-size: 13px;
+            line-height: 40px;
+        }
+        .menu ul li div a {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: white;
+            padding: 0 10px;
+            display: flex;
+            font-weight: 500;
+            text-decoration: none;
+            align-items: center;
+            font-size: 13px;
+        }
+        .has-search {
+            width: 100%;
+        }
+        /*css banner*/
+        .banner {
+            width: 100%;
+            padding: 10px;
+            height: auto;
+        }
+        .carousel-inner {
+            width: unset;
+            box-sizing: border-box;
+        }
+        .carousel-item {
+            box-sizing: border-box;
+            height: auto;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        /*css banner end*/
+        /*csss main-category*/
+        .main {
+            height: auto;
+            max-width: 100%;
+            padding: 20px 10px;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+        }
+        .introduce {
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(194, 189, 189);
+        }
+        .introduce-comic {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(3, 210px);
+            grid-gap: 15px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        .introduce-comic div {
+            position: relative;
+        }
+        .introduce-comic-new {
+            grid-template-rows: repeat(2, 210px);
+        }
+        .item img {
+            width: 100%;
+            height: 100%;
+        }
+        .item {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+        .item2,
+        .item8,
+        .item9 {
+            display: none;
+        }
+        .new-to-webtoon {
+            padding-bottom: 20px;
+        }
+        .new-title {
+            margin: 20px 0;
+        }
+        .most-popular {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .popular-gener {
+            width: 100%;
+        }
+        .size-title {
+            font-size: 20px;
+            color: black;
+        }
+        .news_gener {
+            padding: 10px 0;
+        }
+        .news_gener ul li p {
+            height: 50px;
+            overflow: hidden;
+        }
+        .news_gener ul li a img {
+            min-width: 100px;
+            min-height: 150px;
+            max-height: 150px;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .name-news {
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .header-top {
+            display: block;
+        }
+        .hidden {
+            display: none;
+        }
+        .menu {
+            background-color: #f5f5f5;
+            margin: 0 20px;
+        }
+        .menu ul li a {
+            color: black;
+            padding: 10px;
+        }
+        /*css banner*/
+        .banner {
+            width: 100%;
+            padding: 50px 100px;
+        }
+        .carousel-inner {
+            width: unset;
+            box-sizing: border-box;
+        }
+        .carousel-item {
+            box-sizing: border-box;
+            height: 400px;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        .main {
+            height: auto;
+            max-width: 100%;
+            padding: 20px 50px;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+        }
+        .introduce {
+            padding-bottom: 50px;
+            border-bottom: 1px solid rgb(194, 189, 189);
+        }
+        .introduce-comic {
+            display: grid;
+            grid-template-columns: repeat(5, auto);
+            grid-template-rows: repeat(2, 210px);
+            grid-gap: 15px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        .introduce-comic div {
+            position: relative;
+        }
+        .item img {
+            width: 100%;
+            height: 100%;
+        }
+        .item {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+        .item8,
+        .item9 {
+            display: block;
+        }
+        .item2 {
+            display: block;
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+        .new-to-webtoon {
+            padding-bottom: 50px;
+        }
+        .newWebtoon {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-rows: repeat(1, 200px);
+            margin-top: 30px;
+        }
+        .popular-gener {
+            width: 48%;
+        }
+        .size-title {
+            font-size: 30px;
+            color: black;
+        }
+        .news_gener {
+            padding: 50px 0;
+        }
+        .news_gener ul li p {
+            height: 100px;
+            overflow: hidden;
+        }
+        .news_gener ul li a img {
+            min-width: 100px;
+            min-height: 150px;
+            max-height: 150px;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .name-news {
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {}

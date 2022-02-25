@@ -1,0 +1,215 @@
+
+
+a {
+    text-decoration: none;
+}
+
+.login_banner {
+    margin: 0 auto;
+    width: 20%;
+}
+
+.login_banner img {
+    width: 80%;
+    height: 80%;
+}
+
+.login_banner .title {
+    font-size: 40px;
+    font-family: cursive;
+    animation: title 5s linear infinite;
+}
+
+.login_dn {
+   
+    background-color: white;
+    margin: 0px auto;
+    padding: 30px;
+    border-radius: 20px;
+   
+    border: 1px solid gray;
+    margin-bottom: 50px;
+}
+input[type=text]{
+	width: 100%;
+}
+
+.form_login form input {
+    border: none;
+    font-size: 15px;
+   
+    border-bottom: 1px solid rgb(231, 214, 214);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.form_login form input:focus {
+    outline: 0;
+}
+
+.form_login form button {
+    border: 1px solid rgb(216, 214, 214);
+    background-color: #00dc64;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.form_login form .button-a a {
+    display: block;
+    border: 1px solid rgb(216, 214, 214);
+    background-color: #00dc64;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.login_dn .footer_login {
+    text-align: center;
+    color: rgb(180, 172, 172);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.login_dn .title {
+    text-align: center;
+}
+
+.login_dn .title p i {
+    font-size: 30px;
+}
+
+.form_login form button:hover {
+    cursor: pointer;
+}
+
+.form_login form button:first-child {
+    background-color: rgba(71, 69, 69, 0.897);
+}
+
+.form_login form button:last-child {
+    padding: 10px 30px;
+}
+
+.form_login form .button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_login form .button a {
+    color: white;
+}
+
+.forgotPassword {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forgotPassword a {
+    color: rgb(143, 141, 138);
+    border-bottom: 1px solid rgb(167, 157, 157);
+    padding: 5px;
+}
+
+.forgotPassword p {
+    color: rgb(143, 141, 138);
+}
+
+.logo_login {
+    font-size: 40px;
+}
+
+.logo_login i:first-child {
+    color: rgb(62, 62, 230);
+}
+
+.logo_login i:nth-child(3) {
+    color: cornflowerblue;
+}
+
+.logo_login i:nth-child(2) {
+    color: crimson;
+}
+
+.logo_login i:nth-child(4) {
+    color: rgb(71, 185, 151);
+}
+
+	
+.footer_login {
+    text-align: center;
+    color: rgb(180, 172, 172);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+@keyframes title {
+    0% {
+        opacity: 0.1;
+        text-shadow: 0px 0px 29px rgb(33, 206, 105);
+        color: rgb(224, 64, 72);
+    }
+    50% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgb(68, 189, 52);
+        color: rgb(40, 20, 220);
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .login_banner {
+        width: 100%;
+        text-align: center;
+    }
+    .login_banner img {
+        width: 200px;
+        height: 80px;
+    }
+    .login_banner .title {
+        font-size: 30px;
+        font-family: cursive;
+        animation: title 5s linear infinite;
+    }
+    .login {
+        width: 200px;
+        padding: 30px;
+    }
+    .form_login form button {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .form_login form .button-a a {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .login_banner {
+        width: 100%;
+        text-align: center;
+    }
+    .login_banner img {
+        width: 200px;
+        height: 100px;
+    }
+    .login_banner .title {
+        font-size: 40px;
+        font-family: cursive;
+        animation: title 5s linear infinite;
+    }
+    .login_dn {
+        width: 400px;
+        padding: 50px;
+    }
+    .form_login form button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .form_login form .button-a a {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}

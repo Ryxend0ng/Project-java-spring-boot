@@ -1,0 +1,128 @@
+    .login {
+        width: 100%;
+        background-color: #f5f5f5;
+        font-size: 20px;
+        padding: 50px 0;
+        text-align: left;
+    }
+    
+    .form_dk {
+        background-color: white;
+        width: 500px;
+        margin: 0 auto;
+    }
+    
+    .form_dk form {
+        padding: 50px;
+    }
+    
+    .form_dk form input {
+        border: none;
+        font-size: 18px;
+        width: 100%;
+        border-bottom: 1px solid rgb(231, 214, 214);
+    }
+    
+    .form_dk p {
+        margin-top: 10px;
+    }
+    
+    .form_dk form input:focus {
+        outline: 0;
+    }
+    
+    .form_dk .DieuKhoan {
+        font-size: 13px;
+        color: rgb(194, 183, 183);
+    }
+    
+    .form_dk form button {
+        border: 1px solid rgb(216, 214, 214);
+        background-color: black;
+        color: white;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+    
+    .login .footer_login {
+        text-align: center;
+        color: rgb(180, 172, 172);
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    
+    .login .title {
+        text-align: center;
+    }
+    
+    .login .title p i {
+        font-size: 30px;
+    }
+    
+    @media screen and (min-width: 320px) {
+        .login {
+            font-size: 15px;
+        }
+        .form_dk {
+            width: 300px;
+        }
+        .form_dk form {
+            padding: 20px;
+        }
+        .form_dk form button {
+            font-size: 15px;
+            margin-left: 30%;
+            padding: 10px;
+        }
+        .form_dk form input {
+            font-size: 13px;
+        }
+        .login .footer_login {
+            text-align: center;
+            color: rgb(180, 172, 172);
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .login .title {
+            
+        }
+        .login .title p i {
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .login {
+            font-size: 20px;
+        }
+        .form_dk {
+            width: 500px;
+        }
+        .form_dk form {
+            padding: 50px;
+        }
+        .form_dk form button {
+            font-size: 15px;
+            margin-left: 30%;
+            padding: 10px;
+        }
+        .form_dk form input {
+            font-size: 18px;
+        }
+        .login .footer_login {
+            text-align: center;
+            color: rgb(180, 172, 172);
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .login .title {
+            
+        }
+        .login .title p i {
+            font-size: 30px;
+        }
+    }

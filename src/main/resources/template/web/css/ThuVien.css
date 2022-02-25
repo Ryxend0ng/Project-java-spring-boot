@@ -1,0 +1,67 @@
+.content-lib {
+    padding: 30px 70px;
+    width: 100%;
+}
+
+.lib-title p {
+    font-size: 20px;
+}
+
+.introduce-comic {
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    grid-template-rows: repeat(2, 210px);
+    grid-gap: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.introduce-comic div {
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    grid-column: span 1;
+    grid-row: span 1;
+    box-sizing: border-box;
+}
+
+.item2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.introduce-comic div .title-comic {
+    position: absolute;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+}
+
+.introduce-comic div .title-comic .view {
+    color: #00dc64;
+    margin-bottom: 10px;
+}
+
+.introduce-comic div .title-comic .view i {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.introduce-comic div .title-comic p {
+    margin: 0;
+}
+
+.introduce-comic div .title-comic .up {
+    padding: 5px;
+    background-color: #00dc64;
+    display: inline;
+    border-radius: 20px;
+    font-size: 13px;
+    color: white;
+}

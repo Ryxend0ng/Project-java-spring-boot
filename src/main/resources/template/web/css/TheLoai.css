@@ -1,0 +1,281 @@
+.main_gener {
+    padding: 0px 70px;
+    border-top: 1px solid rgb(221, 212, 212);
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+.list_gener ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    overflow: auto;
+}
+
+.list_gener ul li a {
+    display: block;
+    width: 100px;
+    height: auto;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.list_gener ul li a:hover {
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+}
+
+
+/*css formain-category start*/
+
+.main-category {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-category .introduce {
+    padding-bottom: 50px;
+    border-bottom: none;
+}
+
+.main-category .introduce-comic {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, 210px);
+    grid-gap: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.main-category .introduce-comic div {
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.item2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.main-category .introduce-comic div .title-comic {
+    position: absolute;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+}
+
+.main-category .introduce-comic div .title-comic .view {
+    color: #00dc64;
+    margin-bottom: 10px;
+}
+
+.main-category .introduce-comic div .title-comic .view i {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.main-category .introduce-comic div .title-comic p {
+    margin: 0;
+}
+
+.main-category .introduce-comic div .title-comic .up {
+    padding: 5px;
+    background-color: #00dc64;
+    display: inline;
+    border-radius: 20px;
+    font-size: 13px;
+    color: white;
+}
+
+.main-category .introduce-comic div .title-comic .new {
+    padding: 5px 8px;
+    background-color: #000000;
+    display: inline;
+    border-radius: 100%;
+    font-size: 12px;
+    color: #00dc64;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.main-category .introduce-comic div .category {
+    margin-top: 40px;
+    color: orange;
+    font-weight: 400;
+    font-size: 15px;
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+}
+
+.main-category .introduce-comic div.comic-thumnail {
+    box-sizing: border-box;
+    top: 0;
+    font-size: 12px;
+    text-align: justify;
+    display: none;
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+}
+
+.main-category .introduce-comic div.comic-thumnail hr {
+    background-color: white;
+    width: 30%;
+}
+
+.main-category .introduce-comic div:hover .comic-thumnail {
+    cursor: pointer;
+    display: block;
+}
+
+
+/*css formain-category end*/
+
+.pagination {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+    /*css banner*/
+    /*css banner end*/
+    /*csss main-category*/
+    .main_gener {
+        padding: 0px 20px;
+    }
+    .list_gener ul li a {
+        padding: 10px 5px;
+    }
+    .list_gener ul li a:hover {
+        background-color: orange;
+        cursor: pointer;
+        color: white;
+    }
+    .list_gener ul li .active {
+        background-color: orange;
+        color: white;
+    }
+    .main {
+        height: auto;
+        max-width: 100%;
+        padding: 20px 10px;
+        box-sizing: border-box;
+        background-color: #f5f5f5;
+    }
+    .main-category .introduce {
+        padding-bottom: 20px;
+    }
+    .main-category .introduce-comic {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, 210px);
+        grid-gap: 15px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .main-category .introduce-comic div {
+        position: relative;
+    }
+    .main-category .introduce-comic-new {
+        grid-template-rows: repeat(2, 210px);
+    }
+    .item img {
+        width: 100%;
+        height: 100%;
+    }
+    .item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6,
+    .item7,
+    .item8,
+    .item9 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header-top {
+        display: block;
+    }
+    .hidden {
+        display: none;
+    }
+    .menu {
+        background-color: #f5f5f5;
+        margin: 0 20px;
+    }
+    .menu ul li a {
+        color: black;
+        padding: 10px;
+    }
+    /*css banner*/
+    .list_gener ul li a {
+        padding: 20px 5px;
+    }
+    .list_gener ul li .active {
+        background-color: orange;
+        color: white;
+    }
+    .main {
+        height: auto;
+        max-width: 100%;
+        padding: 20px 50px;
+        box-sizing: border-box;
+        background-color: #f5f5f5;
+    }
+    .main-category.introduce {
+        padding-bottom: 50px;
+    }
+    .main-category .introduce-comic {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-template-rows: repeat(2, 210px);
+        grid-gap: 15px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+   .main-category .introduce-comic div {
+        position: relative;
+    }
+    .item img {
+        width: 100%;
+        height: 100%;
+    }
+    .item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .item8,
+    .item9 {
+        display: block;
+    }
+    .item2 {
+        display: block;
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+}

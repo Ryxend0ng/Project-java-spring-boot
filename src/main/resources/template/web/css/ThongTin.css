@@ -1,0 +1,265 @@
+.image_main {
+    padding: 30px 80px;
+    max-width: 100%;
+    height: auto;
+    border-top: 1px solid rgb(173, 169, 169);
+}
+
+.image_title .image_name {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.image_center {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image_main .image {
+    width: 40%;
+    height: 200px;
+}
+
+.image_main .image_title {
+    width: calc(100% - 50%);
+    margin-left: 50px;
+    height: auto;
+}
+
+.image_title .add_cart .lib-text {
+    color: white;
+    border: 0;
+    background-color: #00dc64;
+    padding: 10px;
+    display: inline;
+}
+
+.image_title .add_cart {
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.list_thumb ul {
+    list-style: none;
+}
+
+.list_thumb ul li {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.list_thumb ul li i {
+    margin-right: 5px;
+    font-size: 15px;
+    min-width: 15px;
+}
+
+.list_thumb ul li span {
+    min-width: 100px;
+    display: block;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.image_title .chap a {
+    color: white;
+    border: 0;
+    background-color: orange;
+    padding: 10px;
+}
+
+.image_title .chap {
+    margin-top: 50px;
+}
+
+.image_content {
+    margin-top: 20px;
+    color: rgb(103, 103, 231);
+    font-size: 20px;
+}
+
+.image_content i {
+    margin-right: 5px;
+}
+
+.image_content p:last-child {
+    color: black;
+    font-size: 15px;
+}
+
+.image_chappter {
+    margin-top: 20px;
+    color: rgb(103, 103, 231);
+    font-size: 20px;
+}
+
+.image_chappter i {
+    margin-right: 5px;
+}
+
+.image_chappter p:last-child {
+    color: black;
+    font-size: 20px;
+}
+
+.chaptter ul {
+    list-style: none;
+}
+
+.chaptter ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chaptter ul li:first-child {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.chaptter ul li:not(:first-child) .update {
+    color: gray;
+}
+
+.chaptter ul li:not(:first-child) .view {
+    color: gray;
+}
+
+.comment-comic {
+    margin-top: 20px;
+    color: rgb(103, 103, 231);
+    font-size: 20px;
+}
+
+.comment-comic i {
+    margin-right: 5px;
+}
+
+.comment-comic p:last-child {
+    color: black;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+    .image_main {
+        padding: 30px 20px;
+    }
+    .image_title .image_name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .image_center {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image_main .image {
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .image_main .image_title {
+        width: 400px;
+        margin-left: 10px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .image_title .add_cart a {
+        color: white;
+        border: 0;
+        background-color: #00dc64;
+        padding: 10px;
+    }
+    .image_title .add_cart {
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    .list_thumb ul {
+        list-style: none;
+    }
+    .list_thumb ul li {
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .list_thumb ul li i {
+        margin-right: 5px;
+        font-size: 20px;
+        min-width: 20px;
+    }
+    .list_thumb ul li span {
+        min-width: 100px;
+        display: block;
+    }
+    .image_title .chap a {
+        color: white;
+        border: 0;
+        background-color: orange;
+        padding: 10px;
+    }
+    .image_title .chap {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .image_main {
+        padding: 30px 80px;
+    }
+    .image_title .image_name {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .image_center {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image_main .image {
+        width: 40%;
+        height: 200px;
+    }
+    .image_main .image_title {
+        width: calc(100% - 50%);
+        margin-left: 50px;
+        height: auto;
+    }
+    .image_title .add_cart a {
+        color: white;
+        border: 0;
+        background-color: #00dc64;
+        padding: 10px;
+    }
+    .image_title .add_cart {
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    .list_thumb ul {
+        list-style: none;
+    }
+    .list_thumb ul li {
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .list_thumb ul li i {
+        margin-right: 5px;
+        font-size: 20px;
+        min-width: 20px;
+    }
+    .list_thumb ul li span {
+        min-width: 100px;
+        display: block;
+    }
+    .image_title .chap a {
+        color: white;
+        border: 0;
+        background-color: orange;
+        padding: 10px;
+    }
+    .image_title .chap {
+        margin-top: 30px;
+    }
+}
